@@ -34,9 +34,9 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: #000;
+    --black: #218496;
     --pink: #ff3258;
-    --white: #f0e9f2;
+    --white: #0614df;
     --white-1: #e5e5e6da;
 
 
@@ -136,7 +136,7 @@ h3 {
 
 @media(max-width: 900px) {
     .heading-primary {
-        font-size: 6.5rem;
+        font-size: 7.5rem;
     }
 }
 
