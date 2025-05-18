@@ -1,5 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <title>
+    Bhavana Vundru portfolio
+  </title>
+
+  <meta name="description" content="Add description.">
+  <meta name="keywords" content="Bhavana Vundru, I know HTML, CSS, React."/>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px; 
+  padding: 20px;
+}
+header, nav, main, footer {
+  padding: 15px;
+  background-color: #7268c7;
+  margin-bottom: 20px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav li {
+  display: inline-block; 
+  margin-right: 10px;
+}
+@media (max-width: 768px) {
+  nav li {
+    display: block; 
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+
+<body>
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Bhavana Vundru</span>
+        </h1>
+        <pre>
+        Hello! 
+        I try to code sometimes without using chatGPT.</pre>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>/about me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <pre>
+             I am Bhavana Vundru an aspiring software engineer from Hyderabad, India. 
+             I am currently a student in ICFAI tech.
+             Here are few stuff i am working on:
+             → Typescript                → Pyhton
+             → React.js                  → C/C++
+             → Javascript                → C#
+             Outside of work, I love gaming and developing my own games in Unity—bringing creative ideas 
+             to life is thrilling.
+            </pre>
+          </div>
+    </section>
+  </main>
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Feel free to contact me for more details. I will try my best to respond.
+        </p>
+        <a href="bhavana191919@gmail.com" class="btn">bhavana191919@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://x.com/VBhavana04?t=cWmubYq1NpxlcHq4WC-5Iw&s=09" title="Link to Twitter Profile">
+            <button class="button-30" role="button">Twitter</button>
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/bhavanavundru" title="Link to Github Profile">
+            <button class="button-30" role="button">Github</button>
+          </a>
+        <li class="footer__social-link-item">
+            <a href="https://leetcode.com/u/bhavanavundru/" title="Link to Leetcode profile"></a>
+            <button class="button-30" role="button">Leetcode</button>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/bhavana-vundru-241b35316">
+            <button class="button-30" role="button">Linkedin</button>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="images/arrow.png" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+=======
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
@@ -143,4 +288,5 @@ img {
   </a>
   <script src="./index.js"></script>
 </body>
+>>>>>>> 44698ac9e18f53b5461dd7f907d7b94d99c06b98
 </html>
