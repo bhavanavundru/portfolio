@@ -34,9 +34,9 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: #218496;
-    --pink: #ff3258;
-    --white: #0614df;
+    --black: #000000;
+    --blue: #1e0281;
+    --white: #ffffff;
     --white-1: #e5e5e6da;
 
 
@@ -136,7 +136,7 @@ h3 {
 
 @media(max-width: 900px) {
     .heading-primary {
-        font-size: 7.5rem;
+        font-size: 6.5rem;
     }
 }
 
@@ -188,7 +188,7 @@ p {
 /* --------------------------------------- */
 
 a {
-    color: var(--white);
+    color: var(--blue);
     font-weight: 400;
     font-family: 'Jost', sans-serif;
     transition: all .2s;
@@ -201,7 +201,7 @@ a {
 
 button:focus,
 a:focus {
-    outline: 2px solid var(--pink);
+    outline: 2px solid var(--blue);
 }
 
 body:not(.user-is-tabbing) button:focus,
@@ -210,7 +210,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .link:hover {
-    color: var(--pink);
+    color: var(--blue);
 }
 
 .btn {
@@ -219,7 +219,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
-    border: 1px solid  var(--pink);
+    border: 1px solid  var(--blue);
     font-weight: 400;
 }
 
@@ -234,7 +234,7 @@ body:not(.user-is-tabbing) a:focus {
     top: 0;
     left: 0;
     right: 100%;
-    background: var(--white);
+    background: var(--black);
     height: 100%;
     z-index: -1;
     transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
@@ -243,11 +243,11 @@ body:not(.user-is-tabbing) a:focus {
 .btn:hover::after,
 .btn:focus::after {
     right: 0;
-    background: var(--pink);
+    background: var(--blue);
 }
 
 .btn--pink {
-    background: var(--pink);
+    background: var(--blue);
     transition: all 0.2s;
 }
 
@@ -266,7 +266,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: .6rem;
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid var(--pink);
+    border-bottom: 1px solid var(--blue);
 }
 
 .link__text::after {
@@ -289,7 +289,7 @@ body:not(.user-is-tabbing) a:focus {
 .link__text:hover::after,
 .link__text:focus:after {
     right: 0;
-    background: var(--pink);
+    background: var(--blue);
 }
 
 .link__text span {
@@ -308,7 +308,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
     height: 5.5rem;
     width: 5.5rem;
-    background-color: var(--pink);
+    background-color: var(--blue);
     border-radius: 50%;
     z-index: 10;
     visibility: hidden;
@@ -396,7 +396,7 @@ body:not(.user-is-tabbing) a:focus {
 .nav__link:hover::after {
     right: 0;
     height: 2px;
-    background: var(--pink);
+    background: var(--blue);
 }
 
 /* --------------------------------------- */
@@ -505,9 +505,7 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-/* --------------------------------------- */
-/* ----- Clients ----- */
-/* --------------------------------------- */
+
 
 .client__logos {
     display: flex;
