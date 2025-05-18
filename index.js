@@ -1,7 +1,3 @@
-/* -----------------------------------------
-  Have focus outline only for keyboard users 
- ---------------------------------------- */
-
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
     document.body.classList.add('user-is-tabbing')
@@ -40,4 +36,14 @@ window.addEventListener("scroll", () => {
     isBackToTopRendered = false;
     alterStyles(isBackToTopRendered);
   }
+});
+
+import { animate, stagger } from 'animejs';
+
+animate('.square', {
+  x: '17rem',
+  delay: stagger(100),
+  duration: stagger(200, { start: 500 }),
+  loop: true,
+  alternate: true
 });
