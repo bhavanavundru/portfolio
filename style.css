@@ -643,7 +643,7 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .button-30:focus {
-    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-shadow: #12121f 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
   }
   
   .button-30:hover {
@@ -652,8 +652,47 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   .button-30:active {
-    box-shadow: #d6d6e7 0 3px 7px inset;
+    box-shadow: #1c1c27 0 3px 7px inset;
     transform: translateY(2px);
   }
-  @media (max-width: 768px) {
-  }
+  @media screen and (max-width: 600px)
+   {
+    .about{
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    .contact{ color:#36395A;
+    margin-top: -40px;
+    margin-left: 42px;
+}
+ul{
+    margin-top: -25px;
+    margin-left: -5px;
+}
+ul li{
+margin-left: 50px;
+}
+ul li a{
+    font-size: 2vw;
+}
+}
+  @media screen and (max-width:450px){
+    .about{ color:#36395A;
+        margin-left: 140px;
+        font-size: 4vw;
+    }
+    ul{
+        margin-top: -25px;
+    }
+    ul li{
+        margin-left: 42px;
+    }
+    ul li a{
+        font-size: 2vw;
+    }
+    .contact{
+        color :#36395A
+        margin-top: -40px;
+        margin-left: 38px;
+    }
+}
