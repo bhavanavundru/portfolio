@@ -13,8 +13,9 @@
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/Jost-Regular.ttf') format('woff');
+    src: url('./fonts/Jost-Regular.ttf') format('truetype');
 }
+
 
 * {
     margin: 0;
@@ -67,6 +68,19 @@ html {
   display: block;
 }
 
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+  font-family: 'Jost', sans-serif;
+  font-size: var(--font-size-small);
+  line-height: 2;
+}
+
+.skills-list li {
+  display: flex;
+  justify-content: space-between;
+  max-width: 40rem;
+}
 
 @media(max-width: 1000px) {
     html {
