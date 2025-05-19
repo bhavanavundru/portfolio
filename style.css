@@ -60,6 +60,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.full-screen-image img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+}
+
+
 @media(max-width: 1000px) {
     html {
         font-size: 52%;
@@ -150,7 +158,7 @@ h2::after {
     display: block;
     height: 2px;
     width: 10rem;
-    background: var(--pink);
+    background: var(--blue);
     margin: var(--gutter-small) 0;
 }
 
